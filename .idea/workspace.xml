@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68df8910-f3b1-492a-863f-9fd61faba89b" name="Changes" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dz/dz.2.2.ry.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz/dz.2.2.ry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dz/dz.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz/dz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dz/dz2.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz/dz2.1.py" afterDir="false" />
-    </list>
+    <list default="true" id="68df8910-f3b1-492a-863f-9fd61faba89b" name="Changes" comment="first commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,15 +29,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.dz.2.2.ry.executor": "Run",
-    "Python.dz.executor": "Run",
-    "Python.dz2.1.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.dz.2.2.ry.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dz.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dz2.1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
