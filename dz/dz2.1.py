@@ -1,10 +1,10 @@
 
-number = int(input("Введіть число: "))
-result1 = divmod(number, 2)
-result2 = divmod(result1[0], 3)
-result3 = divmod(result2[0], 4)
-result4 = divmod(result3[0], 5)
-print("Результат 1:", result1)
-print("Результат 2:", result2)
-print("Результат 3:", result3)
-print("Результат 4:", result4)
+number = int(input("Введіть 4-х значне число: "))
+digit1 = number // 1000
+digit2 = (number % 1000) // 100
+digit3 = (number % 100) // 10
+digit4 = number % 10
+print(digit1)
+print(digit2)
+print(digit3)
+print(digit4)
