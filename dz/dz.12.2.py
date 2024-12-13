@@ -19,28 +19,27 @@ class User:
 
 class Purchase:
     def __init__(self, user):
-        self.products = {}  # Зберігає товар та його кількість
+        self.products = {} 
         self.user = user
 
     def add_item(self, item, cnt):
-        # Якщо товар уже є в замовленні, збільшуємо кількість
+        
         if item in self.products:
             self.products[item] += cnt
         else:
             self.products[item] = cnt
 
     def get_total(self):
-        # Обчислюємо загальну вартість
+   
         return sum(item.price * cnt for item, cnt in self.products.items())
 
     def __str__(self):
         items_str = "\n".join(f"{item.name}: {cnt} pcs." for item, cnt in self.products.items())
         return f"User: {self.user}\nItems:\n{items_str}\nTotal: {self.get_total()}"
 
-# Тестування
 lemon = Item('lemon', 5, "yellow", "small")
 apple = Item('apple', 2, "red", "middle")
-print(lemon)  # lemon, price: 5
+print(lemon)  
 
 buyer = User("Ivan", "Ivanov", "0963495665")
 print(buyer)  # Ivan Ivanov
