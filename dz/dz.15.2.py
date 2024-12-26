@@ -8,7 +8,6 @@ class Fraction:
         self.b = b
 
     def simplify(self):
-        """Скорочує дріб до найпростішого вигляду."""
         common_divisor = gcd(self.a, self.b)
         self.a //= common_divisor
         self.b //= common_divisor
@@ -36,7 +35,6 @@ class Fraction:
 
     def __eq__(self, other):
         if isinstance(other, Fraction):
-            # Приводимо до спільного знаменника для порівняння
             return self.a * other.b == other.a * self.b
         return NotImplemented
 
@@ -53,7 +51,6 @@ class Fraction:
     def __str__(self):
         return f"Fraction: {self.a}, {self.b}"
 
-# Тестування
 f_a = Fraction(2, 3)
 f_b = Fraction(3, 6)
 f_c = f_b + f_a
@@ -65,12 +62,12 @@ assert str(f_d) == 'Fraction: 6, 18', str(f_d)
 f_e = f_a - f_b
 assert str(f_e) == 'Fraction: 3, 18', str(f_e)
 
-assert f_d < f_c  # True
-assert f_d > f_e  # True
-assert f_a != f_b  # True
+assert f_d < f_c  
+assert f_d > f_e  
+assert f_a != f_b  
 
 f_1 = Fraction(2, 4)
 f_2 = Fraction(3, 6)
-assert f_1 == f_2  # True
+assert f_1 == f_2  
 
 print("Усі тести пройдені успішно!")
